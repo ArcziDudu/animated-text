@@ -1,0 +1,84 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #5bca5b;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .btn {
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+body p {
+  color: #fff;
+  font-size: 3rem;
+}
+
+body .modal-btn {
+  position: absolute;
+  top: 200px;
+}
+
+body .modal {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  padding: 2em;
+  top: 200px;
+  width: 600px;
+  height: 200px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+body .modal .modal-input {
+  padding: 1em;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+body .modal .error-msg {
+  margin: 1em 0;
+  font-size: 1rem;
+  color: tomato;
+}
+
+body .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
